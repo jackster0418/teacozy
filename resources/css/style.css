@@ -19,7 +19,7 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 nav {
@@ -40,7 +40,7 @@ img {
   margin-left: 10px;
 }
 
-/*  Content Styles  */
+/*  Content Styles - Main Banner */
 
 .main-banner {
   display: flex;
@@ -62,3 +62,56 @@ img {
   background-color: rgba(0, 0, 0, 0.9);
   flex-basis: 1200px;
 }
+
+/*  Content Styles - Teas Section */
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 1000px;
+  margin-top: 20px;
+}
+
+.teas-header-text {
+  flex-wrap: wrap;
+  //flex-basis: 1000px
+}
+
+.tea-images {
+  display:flex;
+  flex-direction: row;
+  flex-basis: 1000px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.tea-images img {
+  height: 200px;
+  width: 300px;
+  display: inline-block;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*  Content Styles - Locations Section */
+
+
+
+
+
+
+
+
+
+/*  Footer Styles */
