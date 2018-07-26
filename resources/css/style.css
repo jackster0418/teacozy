@@ -1,7 +1,7 @@
 /*  Universal Styles  */
 
 body {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -20,6 +20,7 @@ header {
   border-bottom: 1px solid seashell;
   height: 69px;
   background-color: rgba(0, 0, 0, 1);
+  top: 0px;
 }
 
 nav {
@@ -63,19 +64,19 @@ img {
   flex-basis: 1200px;
 }
 
-/*  Content Styles - Teas Section */
+/*  Content Styles - Teas Menu Section */
 
 .teas {
   display: flex;
   justify-content: center;
-  flex-direction: column;
   flex-basis: 1000px;
-  margin-top: 20px;
+  margin-top: 50px;
+
 }
 
 .teas-header-text {
   flex-wrap: wrap;
-  //flex-basis: 1000px
+  width: 1000px;
 }
 
 .tea-images {
@@ -93,25 +94,70 @@ img {
   height: 200px;
   width: 300px;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
-
-
-
-
-
-
+.tea-images h4 {
+  margin-top: 10px;
+}
 
 
 /*  Content Styles - Locations Section */
 
+.locations {
+  display: flex;
+  justify-content: center;
+  height: 500px:
+  width: 1200px;
+  margin-top: 50px;
+}
 
+.location-image {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  flex-basis: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+#locations {
+  display: flex;
+  height: 500px:
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 
+}
 
+.location-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.location.box {
+  width: 300px;
+  display: inline-block;
+  background-color: black;
+  margin-right: 40px;
+}
 
+/*  Contact Styles */
 
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-text {
+  height: 200px;
+
+}
 
 /*  Footer Styles */
