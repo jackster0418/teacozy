@@ -102,13 +102,11 @@ img {
 }
 
 
-/*  Content Styles - Locations Section */
+/*  Content Styles - Location Section */
 
 .locations {
   display: flex;
   justify-content: center;
-  height: 500px:
-  width: 1200px;
   margin-top: 50px;
 }
 
@@ -118,17 +116,13 @@ img {
   height: 500px;
   flex-basis: 1200px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
 #locations {
   display: flex;
-  height: 500px:
-  width: 1200px;
   justify-content: center;
-  align-items: center;
   margin-bottom: 15px;
 
 }
@@ -138,7 +132,6 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .location.box {
