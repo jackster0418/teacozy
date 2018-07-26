@@ -1,7 +1,7 @@
 /*  Universal Styles  */
 
 body {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.9);
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -19,7 +19,7 @@ header {
   width: 100%;
   border-bottom: 1px solid seashell;
   height: 69px;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.9);
   top: 0px;
 }
 
@@ -144,7 +144,7 @@ img {
 .location.box {
   width: 300px;
   display: inline-block;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
   margin-right: 40px;
 }
 
@@ -161,3 +161,12 @@ img {
 }
 
 /*  Footer Styles */
+
+
+footer {
+  display: flex;
+}
+
+footer span {
+  margin-left: 20px;
+}
